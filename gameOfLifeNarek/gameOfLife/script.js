@@ -51,7 +51,7 @@ function matrixGenerator(matrixSize, grass, grassEater, predator, hunter, wolf, 
         return matrix
 }
 
-let matrix = matrixGenerator(20, 10, 8, 9, 9, 11, 5)
+let matrix = matrixGenerator(20, 15, 10, 10, 10, 11, 5)
 let side = 30
 ///օբյեկտներ պահելու զանգվածներ
 var grassArr = []
@@ -62,7 +62,7 @@ var wolfArr = []
 var doctorArr = []
 
 function setup() {
-        frameRate(18)
+        frameRate(15)
         createCanvas(matrix[0].length * side, matrix.length * side)
         for (let y = 0; y < matrix.length; y++) {
                 for (let x = 0; x < matrix[y].length; x++) {

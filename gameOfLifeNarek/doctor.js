@@ -1,7 +1,6 @@
-class Doctor {
+class Doctor extends LivingCreature{
     constructor(x, y) {
-        this.x = x
-        this.y = y
+        super(x,y)
         this.energy = 16
         this.directions = []
     }
