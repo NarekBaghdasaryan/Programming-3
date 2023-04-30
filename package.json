@@ -1,0 +1,24 @@
+{
+  "name": "programming-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NarekBaghdasaryan/Programming-3.git"
+  },
+  "author": "Narek Baghdasaryan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NarekBaghdasaryan/Programming-3/issues"
+  },
+  "homepage": "https://github.com/NarekBaghdasaryan/Programming-3#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1"
+  }
+}
